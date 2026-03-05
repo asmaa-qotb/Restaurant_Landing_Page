@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taste Garden – Restaurant</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <span class="brand-icon">🌿</span> Taste Garden
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span style="color:#fff;font-size:1.4rem;">&#9776;</span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#offers">Offers</a></li>
+        <li class="nav-item"><a class="nav-link" href="#chef">Chefs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-2"><a class="nav-link btn-nav-reserve" href="#contact">Reserve Table</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content container">
+    <div class="hero-badge">🌿 Fresh · Organic · Delicious</div>
+    <h1 class="hero-title">
+      Experience <span>Culinary</span><br>Excellence
+    </h1>
+    <p class="hero-sub">
+      Where every dish tells a story of flavor, freshness, and tradition —
+      grown from nature's finest ingredients.
+    </p>
+    <div class="hero-btns">
+      <a href="#menu" class="btn btn-orange">View Menu</a>
+      <a href="#contact" class="btn btn-outline-white">Book a Table</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="text-center">
+      <span class="hstat-num">15+</span>
+      <span class="hstat-lbl">Years of taste</span>
+    </div>
+    <div class="text-center">
+      <span class="hstat-num">120+</span>
+      <span class="hstat-lbl">Menu items</span>
+    </div>
+    <div class="text-center">
+      <span class="hstat-num">50k+</span>
+      <span class="hstat-lbl">Happy guests</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── FEATURES BAND ── -->
+<div class="features-band">
+  <div class="container">
+    <div class="row justify-content-center g-0">
+      <div class="col-md-3">
+        <div class="feat-card">
+          <span class="feat-icon">🥗</span>
+          <div>
+            <div class="feat-title">Fresh Ingredients</div>
+            <div class="feat-sub">Sourced daily from local farms</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 d-none d-md-flex align-items-center justify-content-center">
+        <div class="feat-sep"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="feat-card">
+          <span class="feat-icon">👨‍🍳</span>
+          <div>
+            <div class="feat-title">Master Chefs</div>
+            <div class="feat-sub">Award-winning culinary team</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1 d-none d-md-flex align-items-center justify-content-center">
+        <div class="feat-sep"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="feat-card">
+          <span class="feat-icon">🍃</span>
+          <div>
+            <div class="feat-title">Organic & Healthy</div>
+            <div class="feat-sub">100% natural, no additives</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── ABOUT ── -->
+<section id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5 reveal">
+        <div class="about-img-wrap">
+          <img class="about-img-main"
+               src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=900&q=80"
+               alt="About Taste Garden"/>
+          <div class="about-badge">
+            <span class="ab-num">⭐ 4.9</span>
+            <span class="ab-lbl">Customer Rating</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 reveal">
+        <span class="sec-label">About Restaurant</span>
+        <h2 class="sec-title">A Place Where <span>Nature</span><br>Meets Flavor</h2>
+        <div class="sec-divider"></div>
+        <p style="color:var(--gray);line-height:1.85;font-size:.95rem;">
+          Taste Garden was founded on a simple philosophy: the best meals come from the freshest,
+          most responsibly grown ingredients. Nestled in the heart of the city, our restaurant
+          brings the garden to your plate — vibrant, seasonal, and always crafted with love.
+        </p>
+        <p style="color:var(--gray);line-height:1.85;font-size:.95rem;margin-top:1rem;">
+          Our team of passionate chefs works hand-in-hand with local farmers to create a menu
+          that changes with the seasons, ensuring you always taste nature at its peak.
+        </p>
+        <div class="mt-3">
+          <div class="about-check">100% organic and locally sourced ingredients</div>
+          <div class="about-check">Seasonal menus crafted fresh every week</div>
+          <div class="about-check">Cozy ambiance perfect for every occasion</div>
+          <div class="about-check">Private dining and event catering available</div>
+        </div>
+        <a href="#menu" class="btn btn-orange mt-3">Explore Our Menu</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FEATURED MENU ── -->
+<section id="menu">
+  <div class="container">
+    <div class="text-center reveal mb-2">
+      <span class="sec-label">Featured Menu</span>
+      <h2 class="sec-title">Our <span>Signature</span> Dishes</h2>
+      <div class="sec-divider mx-auto"></div>
+    </div>
+    <div class="menu-filter justify-content-center reveal">
+      <button class="mf-btn active">All</button>
+      <button class="mf-btn">Starters</button>
+      <button class="mf-btn">Mains</button>
+      <button class="mf-btn">Salads</button>
+      <button class="mf-btn">Desserts</button>
+      <button class="mf-btn">Drinks</button>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="menu-card">
+          <img class="mc-img" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&q=80" alt="Garden Salad"/>
+          <div class="mc-body">
+            <div class="mc-tag">🥗 Salads</div>
+            <div class="mc-name">Garden Fresh Salad</div>
+            <div class="mc-desc">Mixed greens, cherry tomato, cucumber, feta, lemon vinaigrette</div>
+            <div class="mc-footer">
+              <span class="mc-price">$14</span>
+              <button class="btn-add">+ Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="menu-card">
+          <img class="mc-img" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&q=80" alt="Pizza"/>
+          <div class="mc-body">
+            <div class="mc-tag">🍕 Mains</div>
+            <div class="mc-name">Wood-Fired Margherita</div>
+            <div class="mc-desc">San Marzano tomato, buffalo mozzarella, fresh basil, olive oil</div>
+            <div class="mc-footer">
+              <span class="mc-price">$22</span>
+              <button class="btn-add">+ Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="menu-card">
+          <img class="mc-img" src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=500&q=80" alt="Pasta"/>
+          <div class="mc-body">
+            <div class="mc-tag">🍝 Mains</div>
+            <div class="mc-name">Herb Pesto Tagliatelle</div>
+            <div class="mc-desc">Homemade pasta, garden herb pesto, pine nuts, parmesan</div>
+            <div class="mc-footer">
+              <span class="mc-price">$18</span>
+              <button class="btn-add">+ Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 reveal">
+        <div class="menu-card">
+          <img class="mc-img" src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&q=80" alt="Dessert"/>
+          <div class="mc-body">
+            <div class="mc-tag">🍰 Desserts</div>
+            <div class="mc-name">Berry Basil Tart</div>
+            <div class="mc-desc">Seasonal berries, basil cream, almond crust, honey glaze</div>
+            <div class="mc-footer">
+              <span class="mc-price">$12</span>
+              <button class="btn-add">+ Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5 reveal">
+      <a href="#" class="btn btn-orange px-4">View Full Menu →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── SPECIAL OFFERS ── -->
+<section id="offers">
+  <div class="container">
+    <div class="text-center reveal mb-4">
+      <span class="sec-label">Special Offers</span>
+      <h2 class="sec-title">Today's <span>Best Deals</span></h2>
+      <div class="sec-divider mx-auto"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="offer-card">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&q=80" alt="Brunch Special"/>
+          <div class="offer-overlay"></div>
+          <div class="offer-content">
+            <span class="offer-badge">🌅 Brunch Special</span>
+            <div class="offer-title">Weekend Brunch Set</div>
+            <div class="offer-sub">2 mains + drinks — Save 25%</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <div class="offer-card">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80" alt="Family Deal"/>
+          <div class="offer-overlay"></div>
+          <div class="offer-content">
+            <span class="offer-badge">🍽️ Family Deal</span>
+            <div class="offer-title">Family Feast Platter</div>
+            <div class="offer-sub">4 persons — All-inclusive $89</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4 reveal">
+        <div class="offer-card">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=700&q=80" alt="Happy Hour"/>
+          <div class="offer-overlay"></div>
+          <div class="offer-content">
+            <span class="offer-badge">🍷 Happy Hour</span>
+            <div class="offer-title">Evening Wine & Dine</div>
+            <div class="offer-sub">Mon–Thu 5–7 PM, 30% off drinks</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CHEF SECTION ── -->
+<section id="chef">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5 reveal">
+        <div class="chef-feature">
+          <span class="sec-label" style="color:var(--lime);">Meet Our Team</span>
+          <h2 class="sec-title" style="color:#fff;">
+            The <span style="color:var(--lime);">Hands</span><br>Behind Every Plate
+          </h2>
+          <p class="cf-quote">
+            "Cooking is an art that starts in the garden — we let nature guide every dish we create."
+          </p>
+          <span class="cf-author">— Chef Marco Bianchi, Head Chef</span>
+          <a href="#contact" class="btn btn-orange mt-4" style="align-self:flex-start;">Book a Chef's Table</a>
+        </div>
+      </div>
+      <div class="col-lg-7 reveal">
+        <div class="row g-4">
+          <div class="col-sm-4">
+            <div class="chef-card">
+              <div class="chef-img-wrap">
+                <img class="chef-img"
+                     src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=400&q=80"
+                     alt="Chef Marco"/>
+                <span class="chef-role-badge">Head Chef</span>
+              </div>
+              <div class="chef-name">Marco Bianchi</div>
+              <div class="chef-spec">Italian Cuisine</div>
+              <div class="chef-bio">12 years of culinary excellence across Milan and London.</div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="chef-card">
+              <div class="chef-img-wrap">
+                <img class="chef-img"
+                     src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?w=400&q=80"
+                     alt="Chef Sofia"/>
+                <span class="chef-role-badge">Pastry Chef</span>
+              </div>
+              <div class="chef-name">Sofia Rahman</div>
+              <div class="chef-spec">Pastry & Desserts</div>
+              <div class="chef-bio">Trained at Le Cordon Bleu, Paris. Dessert innovator.</div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="chef-card">
+              <div class="chef-img-wrap">
+                <img class="chef-img"
+                     src="https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=400&q=80"
+                     alt="Chef James"/>
+                <span class="chef-role-badge">Sous Chef</span>
+              </div>
+              <div class="chef-name">James O'Brien</div>
+              <div class="chef-spec">Garden & Vegan</div>
+              <div class="chef-bio">Champion of plant-based creativity and seasonal menus.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CUSTOMER REVIEWS ── -->
+<section id="reviews">
+  <div class="container">
+    <div class="text-center reveal mb-5">
+      <span class="sec-label">Customer Reviews</span>
+      <h2 class="sec-title">What Our <span>Guests</span> Say</h2>
+      <div class="sec-divider mx-auto"></div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4 reveal">
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            Absolutely magical dining experience. The garden salad was the freshest I've ever
+            tasted — you can genuinely feel the quality in every bite.
+          </p>
+          <div class="reviewer">
+            <img class="reviewer-avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Amelia"/>
+            <div>
+              <div class="reviewer-name">Amelia Watson</div>
+              <div class="reviewer-loc">📍 New York</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 reveal">
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            The pesto tagliatelle was extraordinary. The ambiance is cozy and the staff are
+            incredibly attentive. We'll definitely be back!
+          </p>
+          <div class="reviewer">
+            <img class="reviewer-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos"/>
+            <div>
+              <div class="reviewer-name">Carlos Mendes</div>
+              <div class="reviewer-loc">📍 London</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 reveal">
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            Perfect for a family dinner. The family feast platter is incredible value and
+            the kids absolutely loved the berry tart dessert!
+          </p>
+          <div class="reviewer">
+            <img class="reviewer-avatar" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Layla"/>
+            <div>
+              <div class="reviewer-name">Layla Hassan</div>
+              <div class="reviewer-loc">📍 Dubai</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT & RESERVATION ── -->
+<section id="contact">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-5 reveal">
+        <span class="sec-label" style="color:var(--lime);">Contact & Reservation</span>
+        <h2 class="sec-title" style="color:#fff;">
+          Reserve Your <span style="color:var(--lime);">Table</span>
+        </h2>
+        <div class="sec-divider"></div>
+        <div class="contact-info-item">
+          <div class="ci-icon">📍</div>
+          <div>
+            <div class="ci-label">Address</div>
+            <div class="ci-val">24 Garden Street, Green District<br>New York, NY 10001</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ci-icon">🕐</div>
+          <div>
+            <div class="ci-label">Opening Hours</div>
+            <div class="ci-val">Mon – Fri: 11:00 AM – 11:00 PM<br>Sat – Sun: 9:00 AM – 12:00 AM</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ci-icon">📞</div>
+          <div>
+            <div class="ci-label">Phone</div>
+            <div class="ci-val">+1 (212) 555-0184</div>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ci-icon">✉️</div>
+          <div>
+            <div class="ci-label">Email</div>
+            <div class="ci-val">hello@tastegarden.com</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 reveal">
+        <div class="res-form">
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label class="form-label">First Name</label>
+              <input type="text" class="form-control" placeholder="Your first name"/>
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label">Last Name</label>
+              <input type="text" class="form-control" placeholder="Your last name"/>
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="you@email.com"/>
+            </div>
+            <div class="col-sm-6">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="+1 000 000 0000"/>
+            </div>
+            <div class="col-sm-4">
+              <label class="form-label">Date</label>
+              <input type="date" class="form-control"/>
+            </div>
+            <div class="col-sm-4">
+              <label class="form-label">Time</label>
+              <select class="form-select">
+                <option>11:00 AM</option>
+                <option>12:00 PM</option>
+                <option>1:00 PM</option>
+                <option>6:00 PM</option>
+                <option>7:00 PM</option>
+                <option>8:00 PM</option>
+                <option>9:00 PM</option>
+              </select>
+            </div>
+            <div class="col-sm-4">
+              <label class="form-label">Guests</label>
+              <select class="form-select">
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5 Guests</option>
+                <option>6+ Guests</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label class="form-label">Special Requests</label>
+              <textarea class="form-control" rows="3" placeholder="Dietary needs, allergies, celebrations..."></textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-orange w-100 py-3"
+                      style="border-radius:10px;font-size:.95rem;font-weight:700;letter-spacing:.05em;">
+                🌿 Confirm Reservation
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand">🌿 Taste <span>Garden</span></div>
+        <div class="footer-tag">Where every dish tells a story of flavor.</div>
+        <div class="mt-3">
+          <a class="soc" href="#">f</a>
+          <a class="soc" href="#">in</a>
+          <a class="soc" href="#">tw</a>
+          <a class="soc" href="#">ig</a>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <div class="footer-head">Navigate</div>
+        <a class="footer-link" href="#about">About Us</a>
+        <a class="footer-link" href="#menu">Our Menu</a>
+        <a class="footer-link" href="#offers">Special Offers</a>
+        <a class="footer-link" href="#chef">Our Chefs</a>
+        <a class="footer-link" href="#contact">Contact</a>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-head">Services</div>
+        <a class="footer-link" href="#">Private Dining</a>
+        <a class="footer-link" href="#">Catering Events</a>
+        <a class="footer-link" href="#">Gift Cards</a>
+        <a class="footer-link" href="#">Cooking Classes</a>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-head">Contact</div>
+        <p style="color:rgba(255,255,255,.45);font-size:.88rem;line-height:1.8;">
+          24 Garden Street<br>New York, NY 10001<br>
+          <span style="color:var(--lime);">+1 (212) 555-0184</span><br>
+          hello@tastegarden.com
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2024 Taste Garden. All rights reserved.</span>
+      <span class="footer-copy">Privacy Policy · Terms of Service</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Navbar scroll effect
+  window.addEventListener('scroll', () => {
+    document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  // Menu filter buttons
+  document.querySelectorAll('.mf-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.mf-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  // Scroll reveal animation
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 100);
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>
